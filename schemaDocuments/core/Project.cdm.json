@@ -1,0 +1,200 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Project",
+      "displayName" : "Project",
+      "hasAttributes" : [
+        {
+          "name" : "projectId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "actualEnd",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "actualLaborCost",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "actualStart",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "comments",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "createdBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "estimatedHours",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "linkedDocumentURL",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "modifiedOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "overallProjectStatus",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "ownerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "owningTeam",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "progress",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "projectManager",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "projectTeamId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "statusCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "teamSize",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "archived",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "isCompleted",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "keepFromSource",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "membersId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "position",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "projectName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "projectType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "workspaceId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        },
+        {
+          "name" : "actualDuration",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\""
+        }
+      ]
+    }
+  ]
+}
