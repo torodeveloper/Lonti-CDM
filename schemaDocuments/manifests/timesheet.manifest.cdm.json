@@ -1,0 +1,16 @@
+{
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "manifestName" : "timesheet",
+  "entities" : [
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Project",
+      "entityPath" : "/core/Project.cdm.json/Project"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Timesheet.cdm.json/Timesheet"
+    }
+  ]
+}
