@@ -1,5 +1,10 @@
 {
   "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "_allImports.cdm.json"
+    }
+  ],
   "definitions" : [
     {
       "entityName" : "Timesheet",
