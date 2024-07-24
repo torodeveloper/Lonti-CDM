@@ -83,15 +83,15 @@
               }
             ]
           },
-          "name" : "ProjId",
+          "name" : "id",
           "resolutionGuidance" : {
             "renameFormat" : "{m}",
             "entityByReference" : {
               "allowReference" : true,
               "foreignKeyAttribute" : {
-                "name" : "ProjId",
+                "name" : "id",
                 "purpose" : "hasA",
-                "dataType" : "entityId"
+                "dataType" : "string"
               }
             }
           }
