@@ -6,9 +6,9 @@
       "displayName" : "Project",
       "hasAttributes" : [
         {
-          "name" : "projectId",
+          "name" : "id",
           "purpose" : "identifiedBy",
-          "dataType" : "integer",
+          "dataType" : "string",
           "isNullable" : true,
           "description" : "\"\""
         },
