@@ -91,7 +91,7 @@
               "foreignKeyAttribute" : {
                 "name" : "ProjId",
                 "purpose" : "hasA",
-                "dataType" : "string"
+                "dataType" : "entityId"
               }
             }
           }
