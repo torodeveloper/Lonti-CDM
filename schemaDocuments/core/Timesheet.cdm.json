@@ -9,10 +9,10 @@
     {
       "entityName" : "Timesheet",
       "displayName" : "Timesheet",
-      "extendsEntity": "CdsStandard",
       "hasAttributes" : [
         {
           "attributeGroupReference": {
+            "attributeGroupName": "attributesAddedAtThisScope",
             "members": [
               {
                 "name" : "timesheetId",
@@ -99,6 +99,23 @@
                     }
                   }
                 }
+              }
+            ],
+            "exhibitsTraits": [
+              {
+                "traitReference": "is.CDM.attributeGroup",
+                "arguments": [
+                  {
+                    "entityReference": {
+                      "entityShape": "attributeGroupSet",
+                      "constantValues": [
+                        [
+                          "/core/applicationCommon/Account.cdm.json/Account/hasAttributes/attributesAddedAtThisScope"
+                        ]
+                      ]
+                    }
+                  }
+                ]
               }
             ]
           }
