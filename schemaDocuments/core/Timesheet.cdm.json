@@ -75,7 +75,6 @@
                 "description" : ""
               },
               {
-                "explanation" : "",
                 "entity" : {
                   "entityReference" : "Project",
                   "appliedTraits" : [
