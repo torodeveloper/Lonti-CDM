@@ -9,6 +9,7 @@
     {
       "entityName" : "Timesheet",
       "displayName" : "Timesheet",
+      "extendsEntity": "CdsStandard",
       "hasAttributes" : [
         {
           "name" : "timesheetId",
@@ -83,15 +84,15 @@
               }
             ]
           },
-          "name" : "id",
+          "name" : "ProjId",
           "resolutionGuidance" : {
             "renameFormat" : "{m}",
             "entityByReference" : {
               "allowReference" : true,
               "foreignKeyAttribute" : {
-                "name" : "id",
+                "name" : "ProjId",
                 "purpose" : "hasA",
-                "dataType" : "string"
+                "dataType" : "entityId"
               }
             }
           }
