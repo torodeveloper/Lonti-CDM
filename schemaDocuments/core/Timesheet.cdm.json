@@ -12,90 +12,94 @@
       "extendsEntity": "CdsStandard",
       "hasAttributes" : [
         {
-          "name" : "timesheetId",
-          "purpose" : "identifiedBy",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "approvalStatus",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "periodFrom",
-          "purpose" : "hasA",
-          "dataType" : "dateTime",
-          "description" : ""
-        },
-        {
-          "name" : "periodTo",
-          "purpose" : "hasA",
-          "dataType" : "dateTime",
-          "description" : ""
-        },
-        {
-          "name" : "projPeriodId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "worker",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "hoursWorked",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "taskDescription",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "createdAt",
-          "purpose" : "hasA",
-          "dataType" : "dateTime",
-          "description" : ""
-        },
-        {
-          "name" : "updatedAt",
-          "purpose" : "hasA",
-          "dataType" : "dateTime",
-          "description" : ""
-        },
-        {
-          "explanation" : "",
-          "entity" : {
-            "entityReference" : "Project",
-            "appliedTraits" : [
-              {
-                "traitReference" : "is.identifiedBy",
-                "arguments" : [
-                  "Project/(resolvedAttributes)/projectId"
+          "members": [
+            {
+              "name" : "timesheetId",
+              "purpose" : "identifiedBy",
+              "dataType" : "string",
+              "description" : ""
+            },
+            {
+              "name" : "approvalStatus",
+              "purpose" : "hasA",
+              "dataType" : "string",
+              "description" : ""
+            },
+            {
+              "name" : "periodFrom",
+              "purpose" : "hasA",
+              "dataType" : "dateTime",
+              "description" : ""
+            },
+            {
+              "name" : "periodTo",
+              "purpose" : "hasA",
+              "dataType" : "dateTime",
+              "description" : ""
+            },
+            {
+              "name" : "projPeriodId",
+              "purpose" : "hasA",
+              "dataType" : "string",
+              "description" : ""
+            },
+            {
+              "name" : "worker",
+              "purpose" : "hasA",
+              "dataType" : "string",
+              "description" : ""
+            },
+            {
+              "name" : "hoursWorked",
+              "purpose" : "hasA",
+              "dataType" : "string",
+              "description" : ""
+            },
+            {
+              "name" : "taskDescription",
+              "purpose" : "hasA",
+              "dataType" : "string",
+              "description" : ""
+            },
+            {
+              "name" : "createdAt",
+              "purpose" : "hasA",
+              "dataType" : "dateTime",
+              "description" : ""
+            },
+            {
+              "name" : "updatedAt",
+              "purpose" : "hasA",
+              "dataType" : "dateTime",
+              "description" : ""
+            },
+            {
+              "explanation" : "",
+              "entity" : {
+                "entityReference" : "Project",
+                "appliedTraits" : [
+                  {
+                    "traitReference" : "is.identifiedBy",
+                    "arguments" : [
+                      "Project/(resolvedAttributes)/projectId"
+                    ]
+                  }
                 ]
-              }
-            ]
-          },
-          "name" : "ProjId",
-          "resolutionGuidance" : {
-            "renameFormat" : "{m}",
-            "entityByReference" : {
-              "allowReference" : true,
-              "foreignKeyAttribute" : {
-                "name" : "ProjId",
-                "purpose" : "hasA",
-                "dataType" : "entityId"
+              },
+              "name" : "ProjId",
+              "resolutionGuidance" : {
+                "renameFormat" : "{m}",
+                "entityByReference" : {
+                  "allowReference" : true,
+                  "foreignKeyAttribute" : {
+                    "name" : "ProjId",
+                    "purpose" : "hasA",
+                    "dataType" : "entityId"
+                  }
+                }
               }
             }
-          }
+          ]
         }
       ]
     }
