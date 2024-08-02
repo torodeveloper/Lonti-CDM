@@ -1,0 +1,247 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Product",
+      "displayName" : "Product",
+      "hasAttributes" : [
+        {
+          "name" : "productId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "createdOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "entityImageId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "modifiedOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "name",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "parentProductId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "price",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "priceLevelId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "productNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "productTypeCode",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "productTypeCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "quantityOnHand",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "size",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "standardCost",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "stateCode",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "stockVolume",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "stockWeight",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "transactionCurrencyId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "validFromDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "validToDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "vendorID",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "vendorName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "category",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "isVisible",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "orderQuantityMaximum",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "ownerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "productSku",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "sortOrder",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+        },
+        {
+          "name" : "supplierId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Supplier",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Supplier/(resolvedAttributes)/supplierId"
+                ]
+              }
+            ]
+          },
+          "name" : "supplierId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "supplierId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
