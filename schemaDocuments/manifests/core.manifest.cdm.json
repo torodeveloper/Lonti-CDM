@@ -1,0 +1,42 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "manifestName" : "core",
+  "entities" : [
+    {
+      "type" : "LocalEntity",
+      "entityName" : "InventoryItem",
+      "entityPath" : "/core/InventoryItem.cdm.json/InventoryItem"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Location",
+      "entityPath" : "/core/Location.cdm.json/Location"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Product",
+      "entityPath" : "/core/Product.cdm.json/Product"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PurchaseOrder",
+      "entityPath" : "/core/PurchaseOrder.cdm.json/PurchaseOrder"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Supplier",
+      "entityPath" : "/core/Supplier.cdm.json/Supplier"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Project",
+      "entityPath" : "/core/Project.cdm.json/Project"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Timesheet.cdm.json/Timesheet"
+    }
+  ]
+}
