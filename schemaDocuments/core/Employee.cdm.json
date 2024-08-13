@@ -1,0 +1,385 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+    {
+      "corpusPath" : "/core/operationsCommon/Common.cdm.json"
+    },
+    {
+      "corpusPath" : "/core/operationsCommon/DataEntityView.cdm.json"
+    },
+    {
+      "corpusPath" : "HcmTitleEntity.cdm.json"
+    },
+    {
+      "corpusPath" : "HcmLanguageCodeEntity.cdm.json"
+    },
+    {
+      "corpusPath" : "/core/operationsCommon/Entities/Common/GAB/DirPersonEntity.cdm.json"
+    },
+    {
+      "corpusPath" : "HcmEthnicOriginEntity.cdm.json"
+    },
+    {
+      "corpusPath" : "HcmWorkerEntity.cdm.json"
+    },
+    {
+      "corpusPath" : "/core/operationsCommon/Entities/SupplyChain/ProductionControl/WorkCalendarEntity.cdm.json"
+    }
+  ],
+  "definitions" : [
+    {
+      "entityName" : "Employee",
+      "displayName" : "Employee",
+      "hasAttributes" : [
+        {
+          "name" : "name",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryAddressLocation",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactEmail",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactFax",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactPhone",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactURL",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactFacebook",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactLinkedIn",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "primaryContactTwitter",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "professionalSuffix",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "professionalTitle",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "personalTitle",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "personalSuffix",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "title",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "titleId",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "originalHireDateTime",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "officeLocation",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "officeLocationId",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "birthDate",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "nationalityCountryRegion",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "ethnicOriginId",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "gender",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "maritalStatus",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressCity",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressCounty",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressDistrictName",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressLocationId",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressLocationRoles",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressNameDescription",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressState",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressStreet",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "addressZipCode",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "firstName",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "middleName",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "lastNamePrefix",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "lastName",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "employmentStartDate",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "employmentEndDate",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "startDate",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "lastDateWorked",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "terminationReason",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "terminationReasonCodeId",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "terminationDate",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "probationPeriod",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "allowRehire",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "worksFromHome",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "employeeId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string"
+        },
+        {
+          "name" : "age",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "department",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "division",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "mobilePhone",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "supervisor",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "supervisorEmail",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "workPhone",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "hrDepartment",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "workAddress",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "designationName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "employeeType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "jobtitle",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "disabilityDescription",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "annualSalary",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "salary",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "salutation",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+    {
+      "corpusPath" : "_allImports.cdm.json"
+    }
+  ],
+  "definitions" : [
+    {
+      "entityName" : "Company",
+      "displayName" : "Company",
+      "hasAttributes" : [
+        {
+          "name" : "createdOn",
+          "dataType" : "date",
+          "isNullable" : true,
+          "description" : "Date and time when the record was created."
+        },
+        {
+          "name" : "createdBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Shows who created the record."
+        },
+        {
+          "name" : "modifiedOn",
+          "dataType" : "date",
+          "isNullable" : true,
+          "description" : "Date and time when the record was modified."
+        },
+        {
+          "name" : "modifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Shows who last updated the record."
+        },
+        {
+          "name" : "companyId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "description" : "Unique identifier of the company."
+        },
+        {
+          "name" : "name",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "A name for the company."
+        },
+        {
+          "name" : "address",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "phone",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "email",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "website",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "taxIdNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "businessRegNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "revenue",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "profit",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assets",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "liabilities",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}
