@@ -37,21 +37,66 @@
       "type" : "LocalEntity",
       "entityName" : "Timesheet",
       "entityPath" : "/core/Timesheet.cdm.json/Timesheet"
-    }
+    },
     {
       "type" : "LocalEntity",
       "entityName" : "Timesheet",
       "entityPath" : "/core/Company.cdm.json/Company"
-    }
+    },
     {
       "type" : "LocalEntity",
       "entityName" : "Timesheet",
       "entityPath" : "/core/Employee.cdm.json/Employee"
-    }
+    },
     {
       "type" : "LocalEntity",
       "entityName" : "Timesheet",
       "entityPath" : "/core/Customer.cdm.json/Customer"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Asset.cdm.json/Asset"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Attachment.cdm.json/Attachment"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Billing.cdm.json/Billing"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Contact.cdm.json/Contact"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/HcmBIEmployedApplicantEntity.cdm.json/HcmBIEmployedApplicantEntity"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Message.cdm.json/Message"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Order.cdm.json/Order"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/Payment.cdm.json/Payment"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Timesheet",
+      "entityPath" : "/core/PaymentMethod.cdm.json/PaymentMethod"
     }
   ]
 }
