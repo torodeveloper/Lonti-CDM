@@ -1,0 +1,42 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Attachment",
+      "displayName" : "Attachment",
+      "hasAttributes" : [
+        {
+          "name" : "attachmentId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "description" : ""
+        },
+        {
+          "name" : "messageId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "fileName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "fileSize",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "fileType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Payment",
+      "displayName" : "Payment",
+      "hasAttributes" : [
+        {
+          "name" : "paymentId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "\"Unique identifier for entity instances.\""
+        },
+        {
+          "name" : "createdOn",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "\"Date and time when the record was created.\""
+        },
+        {
+          "name" : "modifiedOn",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "\"Date and time when the record was modified.\""
+        },
+        {
+          "name" : "statuscode",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"Reason for the status of the Insurance payment\""
+        },
+        {
+          "name" : "name",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"Required name field.\""
+        },
+        {
+          "name" : "amount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : "\"Total amount of the payment.\""
+        },
+        {
+          "name" : "date",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "\"Date of payment.\""
+        },
+        {
+          "name" : "orderId",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "\"payment is associated with an order, you can include an Order ID field to link the payment to the corresponding order in the Orders table\""
+        },
+        {
+          "name" : "customerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"ID of the customer making the payment, linking to the user's record in the Customer table\""
+        },
+        {
+          "name" : "paymentMethodId",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "\"The id of method used for the payment\""
+        },
+        {
+          "name" : "currency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "\"The currency in which the payment is made\""
+        }
+      ]
+    }
+  ]
+}

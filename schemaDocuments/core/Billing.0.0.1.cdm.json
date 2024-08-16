@@ -1,0 +1,100 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Billing",
+      "displayName" : "Billing",
+      "hasAttributes" : [
+        {
+          "name" : "billingId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "invoiceNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "invoiceDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "dueDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "totalAmount",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "billingAddress",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "paymentStatus",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "paymentMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "paymentDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Customer",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Customer/(resolvedAttributes)/customerId"
+                ]
+              }
+            ]
+          },
+          "name" : "customerId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "customerId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

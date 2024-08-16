@@ -1,0 +1,24 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "PaymentMethod",
+      "displayName" : "PaymentMethod",
+      "hasAttributes" : [
+        {
+          "name" : "methodId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "description" : "Unique identifier for entity instances."
+        },
+        {
+          "name" : "methodName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : "The name of payment method"
+        }
+      ]
+    }
+  ]
+}

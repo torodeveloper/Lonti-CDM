@@ -1,0 +1,182 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Asset",
+      "displayName" : "Asset",
+      "hasAttributes" : [
+        {
+          "name" : "assetId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "acquisitionDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assetType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "categoryId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "departmentId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "model",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assetName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assetNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "serialNum",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "unitCost",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assetStatus",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assetTag",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "modifiedOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "image",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "assignedTo",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "createdOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Location",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Location/(resolvedAttributes)/locationId"
+                ]
+              }
+            ]
+          },
+          "name" : "locationId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "locationId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Supplier",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Supplier/(resolvedAttributes)/supplierId"
+                ]
+              }
+            ]
+          },
+          "name" : "suppliedId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "suppliedId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "imports" : [
+    {
+      "corpusPath" : "/core/operationsCommon/Common.cdm.json"
+    },
+    {
+      "corpusPath" : "/core/operationsCommon/DataEntityView.cdm.json"
+    },
+    {
+      "corpusPath" : "/core/operationsCommon/Tables/Finance/Ledger/Main/CompanyInfo.cdm.json"
+    }
+  ],
+  "definitions" : [
+    {
+      "entityName" : "HcmBIEmployedApplicantEntity",
+      "displayName" : "HcmBIEmployedApplicantEntity",
+      "hasAttributes" : [
+        {
+          "name" : "Application",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "HiringManager",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "EducationLevel",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "ApplicationStatus",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "StartDate",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "Job",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "Department",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "Company",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "Employment",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "Title",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "ApplicantType",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "ApplicantId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string"
+        },
+        {
+          "name" : "firstname",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "lastname",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "tags",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "address",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "category",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "certifications",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "comments",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "companyName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "companyURL",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "dateAdded",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "dateOfBirth",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "disability",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "educationDegree",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "email",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "experience",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "gender",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "interviews",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "middleName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "phone",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "referredBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "salary",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "secondaryAddress",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "skillSet",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "socialMedia",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

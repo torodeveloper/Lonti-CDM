@@ -1,0 +1,84 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Message",
+      "displayName" : "Message",
+      "hasAttributes" : [
+        {
+          "name" : "messageId",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "senderId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "receiverId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "content",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "isRead",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "isArchived",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "isDeleted",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "attachments",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "metadata",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "timestamp",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "messageType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "messageStatus",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}
