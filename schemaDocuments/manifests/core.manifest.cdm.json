@@ -40,62 +40,62 @@
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Company",
       "entityPath" : "/core/Company.cdm.json/Company"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Employee",
       "entityPath" : "/core/Employee.cdm.json/Employee"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Customer",
       "entityPath" : "/core/Customer.cdm.json/Customer"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Asset",
       "entityPath" : "/core/Asset.cdm.json/Asset"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Attachment",
       "entityPath" : "/core/Attachment.cdm.json/Attachment"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Billing",
       "entityPath" : "/core/Billing.cdm.json/Billing"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Contact",
       "entityPath" : "/core/Contact.cdm.json/Contact"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "HcmBIEmployedApplicantEntity",
       "entityPath" : "/core/HcmBIEmployedApplicantEntity.cdm.json/HcmBIEmployedApplicantEntity"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Message",
       "entityPath" : "/core/Message.cdm.json/Message"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Order",
       "entityPath" : "/core/Order.cdm.json/Order"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "Payment",
       "entityPath" : "/core/Payment.cdm.json/Payment"
     },
     {
       "type" : "LocalEntity",
-      "entityName" : "Timesheet",
+      "entityName" : "PaymentMethod",
       "entityPath" : "/core/PaymentMethod.cdm.json/PaymentMethod"
     }
   ]
