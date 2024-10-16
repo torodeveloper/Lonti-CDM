@@ -3,16 +3,34 @@
   "jsonSchemaSemanticVersion" : "1.1.0",
   "definitions" : [
     {
-      "entityName" : "Location",
-      "displayName" : "Location",
+      "entityName" : "Address",
+      "displayName" : "Address",
       "hasAttributes" : [
         {
-          "name" : "locationId",
+          "name" : "addressId",
           "purpose" : "identifiedBy",
           "dataType" : "integer"
         },
         {
+          "name" : "associatedEntityId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "associatedEntityType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
           "name" : "addressLine1",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "addressLine2",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
@@ -24,7 +42,7 @@
           "description" : ""
         },
         {
-          "name" : "stateOrProvince",
+          "name" : "stateProvince",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
@@ -42,49 +60,31 @@
           "description" : ""
         },
         {
-          "name" : "latitude",
+          "name" : "addressType",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "longtitude",
+          "name" : "isPrimary",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "locationType",
+          "name" : "createdDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "handlingInstrcutions",
+          "name" : "lastModifiedDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "warehouseCapacity",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "operatingHours",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactName",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactPhone",
+          "name" : "name",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""

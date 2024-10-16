@@ -3,88 +3,106 @@
   "jsonSchemaSemanticVersion" : "1.1.0",
   "definitions" : [
     {
-      "entityName" : "Location",
-      "displayName" : "Location",
+      "entityName" : "LogisticOrder",
+      "displayName" : "LogisticOrder",
       "hasAttributes" : [
         {
-          "name" : "locationId",
+          "name" : "logisticOrderId",
           "purpose" : "identifiedBy",
           "dataType" : "integer"
         },
         {
-          "name" : "addressLine1",
+          "name" : "customerId",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "city",
+          "name" : "orderType",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "stateOrProvince",
+          "name" : "items",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "postalCode",
+          "name" : "requestedDeliveryDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "country",
+          "name" : "priorityLevel",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "latitude",
+          "name" : "status",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "longtitude",
+          "name" : "totalWeight",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "locationType",
+          "name" : "totalVolume",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "handlingInstrcutions",
+          "name" : "deliveryLocation",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "warehouseCapacity",
+          "name" : "customerReferenceNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "operatingHours",
+          "name" : "amount",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "contactName",
+          "name" : "createdAt",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "contactPhone",
+          "name" : "carrierId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "currency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "totalTax",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "name",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""

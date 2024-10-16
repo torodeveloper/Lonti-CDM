@@ -3,88 +3,76 @@
   "jsonSchemaSemanticVersion" : "1.1.0",
   "definitions" : [
     {
-      "entityName" : "Location",
-      "displayName" : "Location",
+      "entityName" : "Tax",
+      "displayName" : "Tax",
       "hasAttributes" : [
         {
-          "name" : "locationId",
+          "name" : "taxId",
           "purpose" : "identifiedBy",
           "dataType" : "integer"
         },
         {
-          "name" : "addressLine1",
+          "name" : "taxName",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "city",
+          "name" : "taxRate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "stateOrProvince",
+          "name" : "taxType",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "postalCode",
+          "name" : "taxDescription",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "country",
+          "name" : "CreatedDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "latitude",
+          "name" : "CreatedBy",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "longtitude",
+          "name" : "UpdatedDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "locationType",
+          "name" : "UpdatedBy",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "handlingInstrcutions",
+          "name" : "DeletedDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "warehouseCapacity",
+          "name" : "DeletedBy",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "operatingHours",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactName",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactPhone",
+          "name" : "Deleted",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""

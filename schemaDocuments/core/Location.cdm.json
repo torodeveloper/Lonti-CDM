@@ -9,35 +9,84 @@
         {
           "name" : "locationId",
           "purpose" : "identifiedBy",
+          "dataType" : "integer"
+        },
+        {
+          "name" : "addressLine1",
+          "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "name",
+          "name" : "city",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
           "description" : ""
         },
         {
-          "name" : "address",
+          "name" : "stateOrProvince",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
           "description" : ""
         },
         {
-          "name" : "capacity",
+          "name" : "postalCode",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
           "description" : ""
         },
         {
-          "name" : "manager",
+          "name" : "country",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "latitude",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "longtitude",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "locationType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "handlingInstrcutions",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "warehouseCapacity",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "operatingHours",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "contactName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "contactPhone",
+          "purpose" : "hasA",
+          "dataType" : "string",
           "description" : ""
         }
       ]

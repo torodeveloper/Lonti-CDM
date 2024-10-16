@@ -3,88 +3,77 @@
   "jsonSchemaSemanticVersion" : "1.1.0",
   "definitions" : [
     {
-      "entityName" : "Location",
-      "displayName" : "Location",
+      "entityName" : "Tracking",
+      "displayName" : "Tracking",
       "hasAttributes" : [
         {
-          "name" : "locationId",
+          "name" : "trackingId",
           "purpose" : "identifiedBy",
-          "dataType" : "integer"
+          "dataType" : "integer",
+          "description" : ""
         },
         {
-          "name" : "addressLine1",
+          "name" : "trackingNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "city",
+          "name" : "events",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "stateOrProvince",
+          "name" : "fromCity",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "postalCode",
+          "name" : "fromCountry",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "country",
+          "name" : "toCity",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "latitude",
+          "name" : "toCountry",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "longtitude",
+          "name" : "carrier",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "locationType",
+          "name" : "createdAt",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "handlingInstrcutions",
+          "name" : "updatedAt",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "warehouseCapacity",
+          "name" : "weight",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "operatingHours",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactName",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactPhone",
+          "name" : "estDeliveryDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""

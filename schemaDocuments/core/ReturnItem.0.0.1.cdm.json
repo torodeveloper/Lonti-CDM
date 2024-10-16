@@ -3,88 +3,70 @@
   "jsonSchemaSemanticVersion" : "1.1.0",
   "definitions" : [
     {
-      "entityName" : "Location",
-      "displayName" : "Location",
+      "entityName" : "ReturnItem",
+      "displayName" : "ReturnItem",
       "hasAttributes" : [
         {
-          "name" : "locationId",
+          "name" : "returnItemId",
           "purpose" : "identifiedBy",
           "dataType" : "integer"
         },
         {
-          "name" : "addressLine1",
+          "name" : "returnId",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "city",
+          "name" : "productId",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "stateOrProvince",
+          "name" : "quantity",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "postalCode",
+          "name" : "itemCondition",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "country",
+          "name" : "originalPrice",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "latitude",
+          "name" : "refundAmount",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "longtitude",
+          "name" : "replacementProductId",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "locationType",
+          "name" : "itemStatus",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "handlingInstrcutions",
+          "name" : "createdAt",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "warehouseCapacity",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "operatingHours",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactName",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactPhone",
+          "name" : "updatedAt",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""

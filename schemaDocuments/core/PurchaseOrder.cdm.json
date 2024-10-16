@@ -13,10 +13,34 @@
           "description" : ""
         },
         {
+          "name" : "purchaseOrderNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "vendorId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "vendorName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
           "name" : "orderDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "dueDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
           "description" : ""
         },
         {
@@ -34,6 +58,42 @@
           "description" : ""
         },
         {
+          "name" : "subTotal",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "taxAmount",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "lineItems",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "discountAmount",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "paymentTerms",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "status",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
           "name" : "currency",
           "purpose" : "hasA",
           "dataType" : "string",
@@ -45,6 +105,36 @@
           "purpose" : "hasA",
           "dataType" : "boolean",
           "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "createdBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "lastModifiedDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "attachments",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "notes",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "contactDetails",
+          "purpose" : "hasA",
+          "dataType" : "string",
           "description" : ""
         },
         {

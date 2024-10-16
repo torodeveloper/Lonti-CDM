@@ -3,13 +3,31 @@
   "jsonSchemaSemanticVersion" : "1.1.0",
   "definitions" : [
     {
-      "entityName" : "Location",
-      "displayName" : "Location",
+      "entityName" : "Carrier",
+      "displayName" : "Carrier",
       "hasAttributes" : [
         {
-          "name" : "locationId",
+          "name" : "carrierId",
           "purpose" : "identifiedBy",
           "dataType" : "integer"
+        },
+        {
+          "name" : "name",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "modeOfTransport",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "serviceLevel",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
         },
         {
           "name" : "addressLine1",
@@ -42,49 +60,43 @@
           "description" : ""
         },
         {
-          "name" : "latitude",
+          "name" : "phoneNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "longtitude",
+          "name" : "emailAddress",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "locationType",
+          "name" : "contractTerms",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "handlingInstrcutions",
+          "name" : "rating",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "warehouseCapacity",
+          "name" : "fleetSize",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "operatingHours",
+          "name" : "primaryRoute",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
         },
         {
-          "name" : "contactName",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "contactPhone",
+          "name" : "track",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""

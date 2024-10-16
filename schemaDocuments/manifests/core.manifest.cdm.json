@@ -97,6 +97,76 @@
       "type" : "LocalEntity",
       "entityName" : "PaymentMethod",
       "entityPath" : "/core/PaymentMethod.cdm.json/PaymentMethod"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Address",
+      "entityPath" : "/core/Address.cdm.json/Address"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Carrier",
+      "entityPath" : "/core/Carrier.cdm.json/Carrier"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Currency",
+      "entityPath" : "/core/Currency.cdm.json/Currency"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "LogisticOrder",
+      "entityPath" : "/core/LogisticOrder.cdm.json/LogisticOrder"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Refund",
+      "entityPath" : "/core/Refund.cdm.json/Refund"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Return",
+      "entityPath" : "/core/Return.cdm.json/Return"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "ReturnItem",
+      "entityPath" : "/core/ReturnItem.cdm.json/ReturnItem"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "ReturnOrder",
+      "entityPath" : "/core/ReturnOrder.cdm.json/ReturnOrder"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "SalesOrder",
+      "entityPath" : "/core/SalesOrder.cdm.json/SalesOrder"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Shipment",
+      "entityPath" : "/core/Shipment.cdm.json/Shipment"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "ShipmentDocument",
+      "entityPath" : "/core/ShipmentDocument.cdm.json/ShipmentDocument"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Tax",
+      "entityPath" : "/core/Tax.cdm.json/Tax"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Tracking",
+      "entityPath" : "/core/Tracking.cdm.json/Tracking"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Vendor",
+      "entityPath" : "/core/Vendor.cdm.json/Vendor"
     }
   ]
 }
