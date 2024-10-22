@@ -1,0 +1,110 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "PayGroup",
+      "displayName" : "PayGroup",
+      "hasAttributes" : [
+        {
+          "name" : "Id",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CompanyId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DisplayName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayFrequency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveFromDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveToDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Deleted",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

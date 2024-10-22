@@ -1,0 +1,79 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "ContractLineItem",
+      "displayName" : "ContractLineItem",
+      "hasAttributes" : [
+        {
+          "name" : "lineItemId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer"
+        },
+        {
+          "name" : "itemDescription",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "quantity",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "unitPrice",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "totalPrice",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "createdDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "lastModifiedDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Contract",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Contract/(resolvedAttributes)/contractId"
+                ]
+              }
+            ]
+          },
+          "name" : "contractId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "contractId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

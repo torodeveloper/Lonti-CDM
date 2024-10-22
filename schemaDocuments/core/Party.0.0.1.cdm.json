@@ -1,0 +1,80 @@
+{
+    "documentVersion": "0.0.1",
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "definitions" : [
+      {
+        "entityName" : "Party",
+        "displayName" : "Party",
+        "hasAttributes" : [
+          {
+            "name" : "partyId",
+            "purpose" : "identifiedBy",
+            "dataType" : "integer"
+          },
+          {
+            "name" : "partyType",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "name" : "partyName",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "name" : "taxId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "name" : "contactId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "name" : "createdDate",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "name" : "lastModifiedDate",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "explanation" : "",
+            "entity" : {
+              "entityReference" : "Address",
+              "appliedTraits" : [
+                {
+                  "traitReference" : "is.identifiedBy",
+                  "arguments" : [
+                    "Address/(resolvedAttributes)/addressId"
+                  ]
+                }
+              ]
+            },
+            "name" : "addressId",
+            "resolutionGuidance" : {
+              "renameFormat" : "{m}",
+              "entityByReference" : {
+                "allowReference" : true,
+                "foreignKeyAttribute" : {
+                  "name" : "addressId",
+                  "purpose" : "hasA",
+                  "dataType" : "integer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

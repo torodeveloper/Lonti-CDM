@@ -1,0 +1,222 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Accrual",
+      "displayName" : "Accrual",
+      "hasAttributes" : [
+        {
+          "name" : "Id",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CompanyId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Name",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "LeaveType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveFromDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveToDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AccrualMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AccrualRate",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AccrualCycleDay",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AccrualCycleMonth",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AccrualFrequency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CanCarryForward",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CarryForwardLimit",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "WaitingDays",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "MaxAnnualAccrual",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "MinAnnualAccrual",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AllowEncashment",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CashRate",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CashMonth",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Deleted",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Active",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CashFrequency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "AccrualRateUnit",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

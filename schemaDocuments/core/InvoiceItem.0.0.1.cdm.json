@@ -1,0 +1,55 @@
+{
+    "documentVersion": "0.0.1",
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "definitions" : [
+      {
+        "entityName" : "InvoiceItem",
+        "displayName" : "InvoiceItem",
+        "hasAttributes" : [
+          {
+            "name" : "invoiceItemId",
+            "purpose" : "identifiedBy",
+            "dataType" : "integer",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "invoiceId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "description",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "quantity",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "unitPrice",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "totaAmount",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          }
+        ]
+      }
+    ]
+  }
+  

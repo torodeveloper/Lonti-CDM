@@ -9,17 +9,10 @@
         {
           "name" : "purchaseOrderId",
           "purpose" : "identifiedBy",
-          "dataType" : "string",
-          "description" : ""
+          "dataType" : "integer"
         },
         {
           "name" : "purchaseOrderNumber",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "vendorId",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
@@ -34,7 +27,6 @@
           "name" : "orderDate",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
           "description" : ""
         },
         {
@@ -44,17 +36,21 @@
           "description" : ""
         },
         {
-          "name" : "expectedDeliveryDate",
+          "name" : "status",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "currency",
+          "purpose" : "hasA",
+          "dataType" : "string",
           "description" : ""
         },
         {
           "name" : "totalAmount",
           "purpose" : "hasA",
           "dataType" : "string",
-          "isNullable" : true,
           "description" : ""
         },
         {
@@ -85,26 +81,6 @@
           "name" : "paymentTerms",
           "purpose" : "hasA",
           "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "status",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "currency",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true,
-          "description" : ""
-        },
-        {
-          "name" : "isReceived",
-          "purpose" : "hasA",
-          "dataType" : "boolean",
-          "isNullable" : true,
           "description" : ""
         },
         {
@@ -140,25 +116,51 @@
         {
           "explanation" : "",
           "entity" : {
-            "entityReference" : "Supplier",
+            "entityReference" : "Vendor",
             "appliedTraits" : [
               {
                 "traitReference" : "is.identifiedBy",
                 "arguments" : [
-                  "Supplier/(resolvedAttributes)/supplierId"
+                  "Vendor/(resolvedAttributes)/vendorId"
                 ]
               }
             ]
           },
-          "name" : "supplierId",
+          "name" : "vendorId",
           "resolutionGuidance" : {
             "renameFormat" : "{m}",
             "entityByReference" : {
               "allowReference" : true,
               "foreignKeyAttribute" : {
-                "name" : "supplierId",
+                "name" : "vendorId",
                 "purpose" : "hasA",
-                "dataType" : "string"
+                "dataType" : "integer"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Tax",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Tax/(resolvedAttributes)/taxId"
+                ]
+              }
+            ]
+          },
+          "name" : "taxId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "taxId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
               }
             }
           }

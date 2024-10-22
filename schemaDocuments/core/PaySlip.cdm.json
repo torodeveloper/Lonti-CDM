@@ -1,0 +1,239 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "PaySlip",
+      "displayName" : "PaySlip",
+      "hasAttributes" : [
+        {
+          "name" : "Id",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CompanyId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "WorkerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "WorkerName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Department",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PositionTitle",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayPeriodDisplayName",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayPeriodStartDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayPeriodEndDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayPeriodPayDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayrollRunType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "GrossPay",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "TotalDeductions",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "NetPay",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PaymentMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "BankInfoId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Status",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Deleted",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Currency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "PayPeriod",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "PayPeriod/(resolvedAttributes)/Id"
+                ]
+              }
+            ]
+          },
+          "name" : "PayPeriodId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "PayPeriodId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "PayrollRun",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "PayrollRun/(resolvedAttributes)/Id"
+                ]
+              }
+            ]
+          },
+          "name" : "PayrollRunId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "PayrollRunId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

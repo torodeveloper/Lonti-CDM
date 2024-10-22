@@ -1,0 +1,169 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "AttendanceSummary",
+      "displayName" : "AttendanceSummary",
+      "hasAttributes" : [
+        {
+          "name" : "Id",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "WorkerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EarningCode",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Rate",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Amount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UnitsType",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UnitsWorked",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Remarks",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Deleted",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "PayPeriod",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "PayPeriod/(resolvedAttributes)/Id"
+                ]
+              }
+            ]
+          },
+          "name" : "PayPeriodId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "PayPeriodId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Earning",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Earning/(resolvedAttributes)/Id"
+                ]
+              }
+            ]
+          },
+          "name" : "EarningId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "EarningId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

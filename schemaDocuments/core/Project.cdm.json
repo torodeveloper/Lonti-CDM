@@ -1,11 +1,6 @@
 {
   "documentVersion": "0.0.1",
   "jsonSchemaSemanticVersion" : "1.1.0",
-  "imports": [
-    {
-      "corpusPath": "_allImports.cdm.json"
-    }
-  ],
   "definitions" : [
     {
       "entityName" : "Project",
@@ -14,191 +9,217 @@
         {
           "name" : "projectId",
           "purpose" : "identifiedBy",
-          "dataType" : "string",
+          "dataType" : "integer",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "actualEnd",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "actualLaborCost",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "actualStart",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "comments",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "createdBy",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "description",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "estimatedHours",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "linkedDocumentURL",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "modifiedOn",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "overallProjectStatus",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "ownerId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "owningTeam",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "progress",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "projectManager",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "projectTeamId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "statusCode_display",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "teamSize",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "archived",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "isCompleted",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "keepFromSource",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "membersId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "position",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "projectName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "projectType",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "workspaceId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
         },
         {
           "name" : "actualDuration",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\""
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Team",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Team/(resolvedAttributes)/teamId"
+                ]
+              }
+            ]
+          },
+          "name" : "projectTeamId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "projectTeamId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
         }
       ]
     }

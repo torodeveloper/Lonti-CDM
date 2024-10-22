@@ -1,0 +1,75 @@
+{
+    "documentVersion": "0.0.1",
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "definitions" : [
+      {
+        "entityName" : "PricingRule",
+        "displayName" : "PricingRule",
+        "hasAttributes" : [
+          {
+            "name" : "pricingRuleId",
+            "purpose" : "identifiedBy",
+            "dataType" : "string",
+            "description" : ""
+          },
+          {
+            "name" : "name",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "type",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "conditions",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "action",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "priority",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "isActive",
+            "purpose" : "hasA",
+            "dataType" : "boolean",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "createdAt",
+            "purpose" : "hasA",
+            "dataType" : "dateTime",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "updatedAt",
+            "purpose" : "hasA",
+            "dataType" : "dateTime",
+            "isNullable" : true,
+            "description" : ""
+          }
+        ]
+      }
+    ]
+  }
+  

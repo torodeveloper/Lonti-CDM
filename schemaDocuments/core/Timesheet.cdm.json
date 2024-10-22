@@ -1,11 +1,6 @@
 {
   "documentVersion": "0.0.1",
   "jsonSchemaSemanticVersion" : "1.1.0",
-  "imports": [
-    {
-      "corpusPath": "_allImports.cdm.json"
-    }
-  ],
   "definitions" : [
     {
       "entityName" : "Timesheet",
@@ -15,87 +10,77 @@
           "name" : "timesheetId",
           "purpose" : "identifiedBy",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "approvalStatus",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "periodFrom",
           "purpose" : "hasA",
           "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "periodTo",
           "purpose" : "hasA",
           "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "projPeriodId",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "worker",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "hoursWorked",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "taskDescription",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "createdAt",
           "purpose" : "hasA",
           "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "updatedAt",
           "purpose" : "hasA",
           "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
-          "explanation" : "",
-          "entity" : {
-            "entityReference" : "Project",
-            "appliedTraits" : [
-              {
-                "traitReference" : "is.identifiedBy",
-                "arguments" : [
-                  "Project/(resolvedAttributes)/projectId"
-                ]
-              }
-            ]
-          },
-          "name" : "ProjId",
-          "resolutionGuidance" : {
-            "renameFormat" : "{m}",
-            "entityByReference" : {
-              "allowReference" : true,
-              "foreignKeyAttribute" : {
-                "name" : "ProjId",
-                "purpose" : "hasA",
-                "dataType" : "entityId"
-              }
-            }
-          }
+          "name" : "projectId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
         }
       ]
     }

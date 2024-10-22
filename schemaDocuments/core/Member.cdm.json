@@ -1,0 +1,82 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Member",
+      "displayName" : "Member",
+      "hasAttributes" : [
+        {
+          "name" : "memberId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "description" : ""
+        },
+        {
+          "name" : "createdAt",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "modifiedOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "User",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "User/(resolvedAttributes)/systemUserId"
+                ]
+              }
+            ]
+          },
+          "name" : "userId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "userId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Team",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Team/(resolvedAttributes)/teamId"
+                ]
+              }
+            ]
+          },
+          "name" : "groupId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "groupId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

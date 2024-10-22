@@ -11,119 +11,119 @@
           "purpose" : "hasA",
           "dataType" : "date",
           "isNullable" : true,
-          "description" : "\"Date and time when the record was created.\""
+          "description" : "Date and time when the record was created."
         },
         {
           "name" : "createdBy",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Shows who created the record.\""
+          "description" : "Shows who created the record."
         },
         {
           "name" : "modifiedOn",
           "purpose" : "hasA",
           "dataType" : "date",
           "isNullable" : true,
-          "description" : "\"Date and time when the record was modified.\""
+          "description" : "Date and time when the record was modified."
         },
         {
           "name" : "modifiedBy",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Shows who last updated the record.\""
+          "description" : "Shows who last updated the record."
         },
         {
-          "name" : "customerId",
+          "name" : "contactId",
           "purpose" : "identifiedBy",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Unique identifier of the contact.\""
+          "description" : "Unique identifier of the contact."
         },
         {
           "name" : "salutation",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.\""
+          "description" : "Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns."
         },
         {
           "name" : "jobTitle",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.\""
+          "description" : "Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns."
         },
         {
           "name" : "firstName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.\""
+          "description" : "Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns."
         },
         {
           "name" : "department",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the department or business unit where the contact works in the parent company or business.\""
+          "description" : "Type the department or business unit where the contact works in the parent company or business."
         },
         {
           "name" : "nickName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the contact's nickname.\""
+          "description" : "Type the contact's nickname."
         },
         {
           "name" : "middleName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the contact's middle name or initial to make sure the contact is addressed correctly.\""
+          "description" : "Type the contact's middle name or initial to make sure the contact is addressed correctly."
         },
         {
           "name" : "lastName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.\""
+          "description" : "Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns."
         },
         {
           "name" : "suffix",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.\""
+          "description" : "Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns."
         },
         {
           "name" : "fullName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.\""
+          "description" : "Combines and shows the contact's first and last names so that the full name can be displayed in views and reports."
         },
         {
           "name" : "birthDate",
           "purpose" : "hasA",
           "dataType" : "date",
           "isNullable" : true,
-          "description" : "\"Enter the contact's birthday for use in customer gift programs or other communications.\""
+          "description" : "Enter the contact's birthday for use in customer gift programs or other communications."
         },
         {
           "name" : "description",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type additional information to describe the contact, such as an excerpt from the company's website.\""
+          "description" : "Type additional information to describe the contact, such as an excerpt from the company's website."
         },
         {
           "name" : "genderCode",
           "purpose" : "hasA",
           "dataType" : "integer",
           "isNullable" : true,
-          "description" : "\"Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.\""
+          "description" : "Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns."
         },
         {
           "name" : "genderCode_display",
@@ -136,133 +136,152 @@
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the primary email address for the contact.\""
+          "description" : "Type the primary email address for the contact."
         },
         {
           "name" : "EMailAddress2",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the secondary email address for the contact.\""
+          "description" : "Type the secondary email address for the contact."
         },
         {
           "name" : "EMailAddress3",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type an alternate email address for the contact.\""
+          "description" : "Type an alternate email address for the contact."
         },
         {
           "name" : "mobilePhone",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the mobile phone number for the contact.\""
+          "description" : "Type the mobile phone number for the contact."
         },
         {
           "name" : "telephone1",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the main phone number for this contact.\""
+          "description" : "Type the main phone number for this contact."
         },
         {
           "name" : "telephone2",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type a second phone number for this contact.\""
+          "description" : "Type a second phone number for this contact."
         },
         {
           "name" : "telephone3",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type a third phone number for this contact.\""
+          "description" : "Type a third phone number for this contact."
         },
         {
           "name" : "fax",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the fax number for the contact.\""
+          "description" : "Type the fax number for the contact."
         },
         {
           "name" : "address1Name",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type a descriptive name for the customer's address, such as Corporate Headquarters.\""
+          "description" : "Type a descriptive name for the customer's address, such as Corporate Headquarters."
         },
         {
           "name" : "address1PrimaryContactName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the name of the primary contact person for the customer's address.\""
+          "description" : "Type the name of the primary contact person for the customer's address."
         },
         {
           "name" : "address1Line1",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the first line of the customer's address to help identify the location.\""
+          "description" : "Type the first line of the customer's address to help identify the location."
         },
         {
           "name" : "address1Line2",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the second line of the customer's address.\""
+          "description" : "Type the second line of the customer's address."
         },
         {
           "name" : "address1Line3",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the third line of the customer's address.\""
+          "description" : "Type the third line of the customer's address."
         },
         {
           "name" : "address1City",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the city for the customer's address to help identify the location.\""
+          "description" : "Type the city for the customer's address to help identify the location."
         },
         {
           "name" : "address1StateOrProvince",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the state or province of the customer's address.\""
+          "description" : "Type the state or province of the customer's address."
         },
         {
           "name" : "address1Country",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the country or region for the customer's address.\""
+          "description" : "Type the country or region for the customer's address."
         },
         {
           "name" : "address1PostalCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the ZIP Code or postal code for the address.\""
+          "description" : "Type the ZIP Code or postal code for the address."
         },
         {
           "name" : "address1Fax",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"Type the fax number associated with the customer's address.\""
+          "description" : "Type the fax number associated with the customer's address."
         },
         {
-          "name" : "company",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true,
-          "description" : "\"Type the company phone of the contact.\""
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Company",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Company/(resolvedAttributes)/companyId"
+                ]
+              }
+            ]
+          },
+          "name" : "companyId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "companyId",
+                "purpose" : "hasA",
+                "dataType" : "string"
+              }
+            }
+          }
         }
       ]
     }

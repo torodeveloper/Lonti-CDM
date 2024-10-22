@@ -1,0 +1,90 @@
+{
+    "documentVersion": "0.0.1",
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "definitions" : [
+      {
+        "entityName" : "Team",
+        "displayName" : "Team",
+        "hasAttributes" : [
+          {
+            "name" : "teamId",
+            "purpose" : "identifiedBy",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "organizationId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "name",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "description",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "emailAddress",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "createdOn",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "modifiedOn",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "createdBy",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "administratorId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "teamType",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "users",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          }
+        ]
+      }
+    ]
+  }
+  

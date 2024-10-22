@@ -1,0 +1,193 @@
+{
+    "documentVersion": "0.0.1",
+    "jsonSchemaSemanticVersion" : "1.1.0",
+    "definitions" : [
+      {
+        "entityName" : "ProjectTask",
+        "displayName" : "ProjectTask",
+        "hasAttributes" : [
+          {
+            "name" : "createdOn",
+            "purpose" : "hasA",
+            "dataType" : "date",
+            "isNullable" : true,
+            "description" : "Date and time when the record was created."
+          },
+          {
+            "name" : "modifiedOn",
+            "purpose" : "hasA",
+            "dataType" : "date",
+            "isNullable" : true,
+            "description" : "Date and time when the record was modified."
+          },
+          {
+            "name" : "ownerId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : "Owner Id"
+          },
+          {
+            "name" : "projectTaskId",
+            "purpose" : "identifiedBy",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : "Shows the entity instances."
+          },
+          {
+            "name" : "stateCode",
+            "purpose" : "representsStateWith",
+            "dataType" : "integer",
+            "isNullable" : true,
+            "description" : "Status of the Project Task"
+          },
+          {
+            "name" : "projectTaskName",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : "Type the name of the custom entity."
+          },
+          {
+            "name" : "actualDuration",
+            "purpose" : "hasA",
+            "dataType" : "integer",
+            "isNullable" : true,
+            "description" : "Shows the actual duration of the project task in days"
+          },
+          {
+            "name" : "actualEndDateTime",
+            "purpose" : "hasA",
+            "dataType" : "date",
+            "isNullable" : true,
+            "description" : "Enter the actual end time of the project task."
+          },
+          {
+            "name" : "actualStart",
+            "purpose" : "hasA",
+            "dataType" : "date",
+            "isNullable" : true,
+            "description" : "Enter the actual start time of the project task."
+          },
+          {
+            "name" : "assignedResources",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : "Type the project team members that are assigned to task."
+          },
+          {
+            "name" : "description",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : "Enter a description of the project task."
+          },
+          {
+            "name" : "duration",
+            "purpose" : "hasA",
+            "dataType" : "double",
+            "isNullable" : true,
+            "description" : "Shows the duration in days for the task."
+          },
+          {
+            "name" : "progress",
+            "purpose" : "hasA",
+            "dataType" : "decimal",
+            "isNullable" : true,
+            "description" : "Enter the percentage indicating work completed."
+          },
+          {
+            "name" : "dueDate",
+            "purpose" : "hasA",
+            "dataType" : "date",
+            "isNullable" : true,
+            "description" : "Enter the scheduled end time of the project."
+          },
+          {
+            "name" : "assignedTeamMembers",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "project",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "completedBy",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "isCompleted",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "parentProjectTaskId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "permalinkUrl",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "resourceType",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "name" : "workspaceId",
+            "purpose" : "hasA",
+            "dataType" : "string",
+            "isNullable" : true,
+            "description" : ""
+          },
+          {
+            "explanation" : "",
+            "entity" : {
+              "entityReference" : "User",
+              "appliedTraits" : [
+                {
+                  "traitReference" : "is.identifiedBy",
+                  "arguments" : [
+                    "User/(resolvedAttributes)/systemUserId"
+                  ]
+                }
+              ]
+            },
+            "name" : "assignedTeamMembers",
+            "resolutionGuidance" : {
+              "renameFormat" : "{m}",
+              "entityByReference" : {
+                "allowReference" : true,
+                "foreignKeyAttribute" : {
+                  "name" : "assignedTeamMembers",
+                  "purpose" : "hasA",
+                  "dataType" : "string"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

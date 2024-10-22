@@ -1,0 +1,215 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Deduction",
+      "displayName" : "Deduction",
+      "hasAttributes" : [
+        {
+          "name" : "Id",
+          "purpose" : "identifiedBy",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Name",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Code",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Type",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "RemittanceAgency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Active",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveFromDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveToDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Priority",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Goal",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Times",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Frequency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployeeDeductionAmount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployerContributionAmount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployeeCalculationMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployerCalculationMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployeeAnnualMax",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployerAnnualMax",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayPeriodMin",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "PayPeriodMax",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Currency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "CreatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UpdatedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "DeletedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Deleted",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

@@ -12,12 +12,6 @@
           "dataType" : "integer"
         },
         {
-          "name" : "salesOrderId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
           "name" : "customerId",
           "purpose" : "hasA",
           "dataType" : "string",
@@ -54,19 +48,7 @@
           "description" : ""
         },
         {
-          "name" : "addressId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
           "name" : "shippingDetails",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "refundId",
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
@@ -82,6 +64,84 @@
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "SalesOrder",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "SalesOrder/(resolvedAttributes)/salesOrderId"
+                ]
+              }
+            ]
+          },
+          "name" : "salesOrderId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "salesOrderId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Address",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Address/(resolvedAttributes)/addressId"
+                ]
+              }
+            ]
+          },
+          "name" : "addressId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "addressId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Refund",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Refund/(resolvedAttributes)/refundId"
+                ]
+              }
+            ]
+          },
+          "name" : "refundId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "refundId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

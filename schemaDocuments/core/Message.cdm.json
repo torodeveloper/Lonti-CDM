@@ -10,73 +10,123 @@
           "name" : "messageId",
           "purpose" : "identifiedBy",
           "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "senderId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
-          "name" : "receiverId",
-          "purpose" : "hasA",
-          "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "content",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "isRead",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "isArchived",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "isDeleted",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "attachments",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "metadata",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "timestamp",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "messageType",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "messageStatus",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
+        },
+        {
+          "explanation" : " ",
+          "entity" : {
+            "entityReference" : "User",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "User/(resolvedAttributes)/systemUserId"
+                ]
+              }
+            ]
+          },
+          "name" : "senderId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "senderId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "User",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "User/(resolvedAttributes)/systemUserId"
+                ]
+              }
+            ]
+          },
+          "name" : "receiverId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "receiverId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

@@ -10,31 +10,55 @@
           "name" : "attachmentId",
           "purpose" : "identifiedBy",
           "dataType" : "integer",
-          "description" : ""
-        },
-        {
-          "name" : "messageId",
-          "purpose" : "hasA",
-          "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "fileName",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "fileSize",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "fileType",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
+        },
+        {
+          "explanation" : " ",
+          "entity" : {
+            "entityReference" : "Message",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Message/(resolvedAttributes)/messageId"
+                ]
+              }
+            ]
+          },
+          "name" : "messageId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "messageId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

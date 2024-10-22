@@ -1,0 +1,66 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "Invoice",
+      "displayName" : "Invoice",
+      "hasAttributes" : [
+        {
+          "name" : "invoiceId",
+          "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "description" : ""
+        },
+        {
+          "name" : "invoiceNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "customerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "invoiceDate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "totaAmount",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "status",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "currency",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        },
+        {
+          "name" : "emailAddress",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "description" : ""
+        }
+      ]
+    }
+  ]
+}

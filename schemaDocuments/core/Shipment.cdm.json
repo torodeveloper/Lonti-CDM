@@ -18,12 +18,6 @@
           "description" : ""
         },
         {
-          "name" : "carrierId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
           "name" : "status",
           "purpose" : "hasA",
           "dataType" : "string",
@@ -106,6 +100,32 @@
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Carrier",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Carrier/(resolvedAttributes)/carrierId"
+                ]
+              }
+            ]
+          },
+          "name" : "carrierId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "carrierId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

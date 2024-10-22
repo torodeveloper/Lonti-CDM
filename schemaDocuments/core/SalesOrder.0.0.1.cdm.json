@@ -36,12 +36,6 @@
           "description" : ""
         },
         {
-          "name" : "addressId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
           "name" : "orderItems",
           "purpose" : "hasA",
           "dataType" : "string",
@@ -64,6 +58,32 @@
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Address",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Address/(resolvedAttributes)/addressId"
+                ]
+              }
+            ]
+          },
+          "name" : "addressId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "addressId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

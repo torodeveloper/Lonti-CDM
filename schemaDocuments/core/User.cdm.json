@@ -1,0 +1,874 @@
+{
+  "documentVersion": "0.0.1",
+  "jsonSchemaSemanticVersion" : "1.1.0",
+  "definitions" : [
+    {
+      "entityName" : "User",
+      "displayName" : "User",
+      "hasAttributes" : [
+        {
+          "name" : "systemUserId",
+          "purpose" : "identifiedBy",
+          "dataType" : "entityId",
+          "isNullable" : true,
+          "description" : "Unique identifier for the user."
+        },
+        {
+          "name" : "firstName",
+          "purpose" : "hasA",
+          "dataType" : "firstName",
+          "isNullable" : true,
+          "description" : "First name of the user."
+        },
+        {
+          "name" : "salutation",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Salutation for correspondence with the user."
+        },
+        {
+          "name" : "middleName",
+          "purpose" : "hasA",
+          "dataType" : "middleName",
+          "isNullable" : true,
+          "description" : "Middle name of the user."
+        },
+        {
+          "name" : "lastName",
+          "purpose" : "hasA",
+          "dataType" : "lastName",
+          "isNullable" : true,
+          "description" : "Last name of the user."
+        },
+        {
+          "name" : "personalEMailAddress",
+          "purpose" : "hasA",
+          "dataType" : "email",
+          "isNullable" : true,
+          "description" : "Personal email address of the user."
+        },
+        {
+          "name" : "fullName",
+          "purpose" : "hasA",
+          "dataType" : "fullName",
+          "isNullable" : true,
+          "description" : "Full name of the user."
+        },
+        {
+          "name" : "nickName",
+          "purpose" : "hasA",
+          "dataType" : "name",
+          "isNullable" : true,
+          "description" : "Nickname of the user."
+        },
+        {
+          "name" : "title",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Title of the user."
+        },
+        {
+          "name" : "internalEMailAddress",
+          "purpose" : "hasA",
+          "dataType" : "email",
+          "isNullable" : true,
+          "description" : "Internal email address for the user."
+        },
+        {
+          "name" : "jobTitle",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Job title of the user."
+        },
+        {
+          "name" : "mobileAlertEMail",
+          "purpose" : "hasA",
+          "dataType" : "email",
+          "isNullable" : true,
+          "description" : "Mobile alert email address for the user."
+        },
+        {
+          "name" : "preferredEmailCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Preferred email address for the user."
+        },
+        {
+          "name" : "preferredEmailCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "homePhone",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "Home phone number for the user."
+        },
+        {
+          "name" : "mobilePhone",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "Mobile phone number for the user."
+        },
+        {
+          "name" : "preferredPhoneCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Preferred phone number for the user."
+        },
+        {
+          "name" : "preferredPhoneCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "preferredAddressCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Preferred address for the user."
+        },
+        {
+          "name" : "preferredAddressCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "photoUrl",
+          "purpose" : "hasA",
+          "dataType" : "url",
+          "isNullable" : true,
+          "description" : "URL for the Website on which a photo of the user is located."
+        },
+        {
+          "name" : "domainName",
+          "purpose" : "hasA",
+          "dataType" : "name",
+          "isNullable" : true,
+          "description" : "Active Directory domain of which the user is a member."
+        },
+        {
+          "name" : "passportLo",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "For internal use only."
+        },
+        {
+          "name" : "createdOn",
+          "purpose" : "createdOn",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "Date and time when the user was created."
+        },
+        {
+          "name" : "passportHi",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "For internal use only."
+        },
+        {
+          "name" : "disabledReason",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Reason for disabling the user."
+        },
+        {
+          "name" : "modifiedOn",
+          "purpose" : "modifiedOn",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "Date and time when the user was last modified."
+        },
+        {
+          "name" : "employeeId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Employee identifier for the user."
+        },
+        {
+          "name" : "isDisabled",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Information about whether the user is enabled."
+        },
+        {
+          "name" : "governmentId",
+          "purpose" : "hasA",
+          "dataType" : "governmentId",
+          "isNullable" : true,
+          "description" : "Government identifier for the user."
+        },
+        {
+          "name" : "versionNumber",
+          "purpose" : "hasA",
+          "dataType" : "bigInteger",
+          "isNullable" : true,
+          "description" : "Version number of the user."
+        },
+        {
+          "name" : "address1AddressId",
+          "purpose" : "hasA",
+          "dataType" : "entityId",
+          "isNullable" : true,
+          "description" : "Unique identifier for address 1."
+        },
+        {
+          "name" : "address1AddressTypeCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Type of address for address 1, such as billing, shipping, or primary address."
+        },
+        {
+          "name" : "address1AddressTypeCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "address1Name",
+          "purpose" : "hasA",
+          "dataType" : "name",
+          "isNullable" : true,
+          "description" : "Name to enter for address 1."
+        },
+        {
+          "name" : "address1Line1",
+          "purpose" : "hasA",
+          "dataType" : "addressLine",
+          "isNullable" : true,
+          "description" : "First line for entering address 1 information."
+        },
+        {
+          "name" : "address1Line2",
+          "purpose" : "hasA",
+          "dataType" : "addressLine",
+          "isNullable" : true,
+          "description" : "Second line for entering address 1 information."
+        },
+        {
+          "name" : "address1Line3",
+          "purpose" : "hasA",
+          "dataType" : "addressLine",
+          "isNullable" : true,
+          "description" : "Third line for entering address 1 information."
+        },
+        {
+          "name" : "address1City",
+          "purpose" : "hasA",
+          "dataType" : "city",
+          "isNullable" : true,
+          "description" : "City name for address 1."
+        },
+        {
+          "name" : "address1StateOrProvince",
+          "purpose" : "hasA",
+          "dataType" : "stateOrProvince",
+          "isNullable" : true,
+          "description" : "State or province for address 1."
+        },
+        {
+          "name" : "address1County",
+          "purpose" : "hasA",
+          "dataType" : "county",
+          "isNullable" : true,
+          "description" : "County name for address 1."
+        },
+        {
+          "name" : "address1Country",
+          "purpose" : "hasA",
+          "dataType" : "country",
+          "isNullable" : true,
+          "description" : "Country/region name in address 1."
+        },
+        {
+          "name" : "address1PostOfficeBox",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Post office box number for address 1."
+        },
+        {
+          "name" : "address1PostalCode",
+          "purpose" : "hasA",
+          "dataType" : "postalCode",
+          "isNullable" : true,
+          "description" : "ZIP Code or postal code for address 1."
+        },
+        {
+          "name" : "address1UTCOffset",
+          "purpose" : "hasA",
+          "dataType" : "timezone",
+          "isNullable" : true,
+          "description" : "UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time."
+        },
+        {
+          "name" : "address1UPSZone",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "United Parcel Service (UPS) zone for address 1."
+        },
+        {
+          "name" : "address1Latitude",
+          "purpose" : "hasA",
+          "dataType" : "latitude",
+          "isNullable" : true,
+          "description" : "Latitude for address 1."
+        },
+        {
+          "name" : "address1Telephone1",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "First telephone number associated with address 1."
+        },
+        {
+          "name" : "address1Longitude",
+          "purpose" : "hasA",
+          "dataType" : "longitude",
+          "isNullable" : true,
+          "description" : "Longitude for address 1."
+        },
+        {
+          "name" : "address1ShippingMethodCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Method of shipment for address 1."
+        },
+        {
+          "name" : "address1ShippingMethodCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "address1Telephone2",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "Second telephone number associated with address 1."
+        },
+        {
+          "name" : "address1Telephone3",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "Third telephone number associated with address 1."
+        },
+        {
+          "name" : "address1Fax",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Fax number for address 1."
+        },
+        {
+          "name" : "address2AddressId",
+          "purpose" : "hasA",
+          "dataType" : "entityId",
+          "isNullable" : true,
+          "description" : "Unique identifier for address 2."
+        },
+        {
+          "name" : "address2AddressTypeCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Type of address for address 2, such as billing, shipping, or primary address."
+        },
+        {
+          "name" : "address2AddressTypeCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "address2Name",
+          "purpose" : "hasA",
+          "dataType" : "name",
+          "isNullable" : true,
+          "description" : "Name to enter for address 2."
+        },
+        {
+          "name" : "address2Line1",
+          "purpose" : "hasA",
+          "dataType" : "addressLine",
+          "isNullable" : true,
+          "description" : "First line for entering address 2 information."
+        },
+        {
+          "name" : "address2Line2",
+          "purpose" : "hasA",
+          "dataType" : "addressLine",
+          "isNullable" : true,
+          "description" : "Second line for entering address 2 information."
+        },
+        {
+          "name" : "address2Line3",
+          "purpose" : "hasA",
+          "dataType" : "addressLine",
+          "isNullable" : true,
+          "description" : "Third line for entering address 2 information."
+        },
+        {
+          "name" : "address2City",
+          "purpose" : "hasA",
+          "dataType" : "city",
+          "isNullable" : true,
+          "description" : "City name for address 2."
+        },
+        {
+          "name" : "address2StateOrProvince",
+          "purpose" : "hasA",
+          "dataType" : "stateOrProvince",
+          "isNullable" : true,
+          "description" : "State or province for address 2."
+        },
+        {
+          "name" : "address2County",
+          "purpose" : "hasA",
+          "dataType" : "county",
+          "isNullable" : true,
+          "description" : "County name for address 2."
+        },
+        {
+          "name" : "address2Country",
+          "purpose" : "hasA",
+          "dataType" : "country",
+          "isNullable" : true,
+          "description" : "Country/region name in address 2."
+        },
+        {
+          "name" : "address2PostOfficeBox",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Post office box number for address 2."
+        },
+        {
+          "name" : "address2PostalCode",
+          "purpose" : "hasA",
+          "dataType" : "postalCode",
+          "isNullable" : true,
+          "description" : "ZIP Code or postal code for address 2."
+        },
+        {
+          "name" : "address2UTCOffset",
+          "purpose" : "hasA",
+          "dataType" : "timezone",
+          "isNullable" : true,
+          "description" : "UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time."
+        },
+        {
+          "name" : "address2UPSZone",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "United Parcel Service (UPS) zone for address 2."
+        },
+        {
+          "name" : "address2Latitude",
+          "purpose" : "hasA",
+          "dataType" : "latitude",
+          "isNullable" : true,
+          "description" : "Latitude for address 2."
+        },
+        {
+          "name" : "address2Telephone1",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "First telephone number associated with address 2."
+        },
+        {
+          "name" : "address2Longitude",
+          "purpose" : "hasA",
+          "dataType" : "longitude",
+          "isNullable" : true,
+          "description" : "Longitude for address 2."
+        },
+        {
+          "name" : "address2ShippingMethodCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Method of shipment for address 2."
+        },
+        {
+          "name" : "address2ShippingMethodCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "address2Telephone2",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "Second telephone number associated with address 2."
+        },
+        {
+          "name" : "address2Telephone3",
+          "purpose" : "hasA",
+          "dataType" : "phone",
+          "isNullable" : true,
+          "description" : "Third telephone number associated with address 2."
+        },
+        {
+          "name" : "address2Fax",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Fax number for address 2."
+        },
+        {
+          "name" : "skills",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Skill set of the user."
+        },
+        {
+          "name" : "displayInServiceViews",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Whether to display the user in service views."
+        },
+        {
+          "name" : "calendarId",
+          "purpose" : "hasA",
+          "dataType" : "entityId",
+          "isNullable" : true,
+          "description" : "Fiscal calendar associated with the user."
+        },
+        {
+          "name" : "setupUser",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Check if user is a setup user."
+        },
+        {
+          "name" : "windowsLiveID",
+          "purpose" : "hasA",
+          "dataType" : "email",
+          "isNullable" : true,
+          "description" : "Windows Live ID"
+        },
+        {
+          "name" : "incomingEmailDeliveryMethod",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Incoming email delivery method for the user."
+        },
+        {
+          "name" : "incomingEmailDeliveryMethod_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "outgoingEmailDeliveryMethod",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Outgoing email delivery method for the user."
+        },
+        {
+          "name" : "outgoingEmailDeliveryMethod_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "importSequenceNumber",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "Unique identifier of the data import or data migration that created this record."
+        },
+        {
+          "name" : "accessMode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Type of user."
+        },
+        {
+          "name" : "accessMode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "inviteStatusCode",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "User invitation status."
+        },
+        {
+          "name" : "inviteStatusCode_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "overriddenCreatedOn",
+          "purpose" : "createdOn",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : "Date and time that the record was migrated."
+        },
+        {
+          "name" : "UTCConversionTimeZoneCode",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "Time zone code that was in use when the record was created."
+        },
+        {
+          "name" : "timeZoneRuleVersionNumber",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "For internal use only."
+        },
+        {
+          "name" : "yomiFullName",
+          "purpose" : "hasA",
+          "dataType" : "fullName",
+          "isNullable" : true,
+          "description" : "Pronunciation of the full name of the user, written in phonetic hiragana or katakana characters."
+        },
+        {
+          "name" : "yomiLastName",
+          "purpose" : "hasA",
+          "dataType" : "lastName",
+          "isNullable" : true,
+          "description" : "Pronunciation of the last name of the user, written in phonetic hiragana or katakana characters."
+        },
+        {
+          "name" : "yomiMiddleName",
+          "purpose" : "hasA",
+          "dataType" : "middleName",
+          "isNullable" : true,
+          "description" : "Pronunciation of the middle name of the user, written in phonetic hiragana or katakana characters."
+        },
+        {
+          "name" : "yomiFirstName",
+          "purpose" : "hasA",
+          "dataType" : "firstName",
+          "isNullable" : true,
+          "description" : "Pronunciation of the first name of the user, written in phonetic hiragana or katakana characters."
+        },
+        {
+          "name" : "isIntegrationUser",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Check if user is an integration user."
+        },
+        {
+          "name" : "defaultFiltersPopulated",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Indicates if default outlook filters have been populated."
+        },
+        {
+          "name" : "emailRouterAccessApproval",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "Shows the status of the primary email address."
+        },
+        {
+          "name" : "emailRouterAccessApproval_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "exchangeRate",
+          "purpose" : "hasA",
+          "dataType" : "decimal",
+          "isNullable" : true,
+          "description" : "Exchange rate for the currency associated with the systemuser with respect to the base currency."
+        },
+        {
+          "name" : "CALType",
+          "purpose" : "hasA",
+          "dataType" : "listLookup",
+          "isNullable" : true,
+          "description" : "License type of user."
+        },
+        {
+          "name" : "CALType_display",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
+          "name" : "isLicensed",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Information about whether the user is licensed."
+        },
+        {
+          "name" : "isSyncWithDirectory",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Information about whether the user is synced with the directory."
+        },
+        {
+          "name" : "yammerEmailAddress",
+          "purpose" : "hasA",
+          "dataType" : "email",
+          "isNullable" : true,
+          "description" : "User's Yammer login email address"
+        },
+        {
+          "name" : "yammerUserId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "User's Yammer ID"
+        },
+        {
+          "name" : "defaultMailbox",
+          "purpose" : "hasA",
+          "dataType" : "entityId",
+          "isNullable" : true,
+          "description" : "Select the mailbox associated with this user."
+        },
+        {
+          "name" : "userLicenseType",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "Shows the type of user license."
+        },
+        {
+          "name" : "entityImageId",
+          "purpose" : "hasA",
+          "dataType" : "guid",
+          "isNullable" : true,
+          "description" : "For internal use only."
+        },
+        {
+          "name" : "address2Composite",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Shows the complete secondary address."
+        },
+        {
+          "name" : "address1Composite",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "Shows the complete primary address."
+        },
+        {
+          "name" : "processId",
+          "purpose" : "hasA",
+          "dataType" : "guid",
+          "isNullable" : true,
+          "description" : "Shows the ID of the process."
+        },
+        {
+          "name" : "stageId",
+          "purpose" : "hasA",
+          "dataType" : "guid",
+          "isNullable" : true,
+          "description" : "Shows the ID of the stage."
+        },
+        {
+          "name" : "isEmailAddressApprovedByO365Admin",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : "Shows the status of approval of the email address by O365 Admin."
+        },
+        {
+          "name" : "traversedPath",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "For internal use only."
+        },
+        {
+          "name" : "sharePointEmailAddress",
+          "purpose" : "hasA",
+          "dataType" : "email",
+          "isNullable" : true,
+          "description" : "SharePoint Work Email Address"
+        },
+        {
+          "name" : "mobileOfflineProfileId",
+          "purpose" : "hasA",
+          "dataType" : "entityId",
+          "isNullable" : true,
+          "description" : "Items contained with a particular SystemUser."
+        },
+        {
+          "name" : "defaultOdbFolderName",
+          "purpose" : "hasA",
+          "dataType" : "name",
+          "isNullable" : true,
+          "description" : "Type a default folder name for the user's OneDrive For Business location."
+        },
+        {
+          "name" : "applicationId",
+          "purpose" : "hasA",
+          "dataType" : "guid",
+          "isNullable" : true,
+          "description" : "The identifier for the application. This is used to access data in another application."
+        },
+        {
+          "name" : "applicationIdUri",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : "The URI used as a unique logical identifier for the external app. This can be used to validate the application."
+        },
+        {
+          "name" : "azureActiveDirectoryObjectId",
+          "purpose" : "hasA",
+          "dataType" : "guid",
+          "isNullable" : true,
+          "description" : "This is the application directory object Id."
+        },
+        {
+          "name" : "identityId",
+          "purpose" : "hasA",
+          "dataType" : "integer",
+          "isNullable" : true,
+          "description" : "For internal use only."
+        }
+      ]
+    }
+  ]
+}

@@ -12,12 +12,6 @@
           "dataType" : "integer"
         },
         {
-          "name" : "returnId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
-        },
-        {
           "name" : "refundAmount",
           "purpose" : "hasA",
           "dataType" : "string",
@@ -58,6 +52,32 @@
           "purpose" : "hasA",
           "dataType" : "string",
           "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Return",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Return/(resolvedAttributes)/returnId"
+                ]
+              }
+            ]
+          },
+          "name" : "returnId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "returnId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

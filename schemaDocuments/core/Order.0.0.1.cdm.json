@@ -11,348 +11,336 @@
           "purpose" : "identifiedBy",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "accountId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToAddressId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToCity",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToContactName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToCountry",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToFax",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToLine1",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToPostalCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToStateOrProvince",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "billToTelephone",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "contactId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "createdOn",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "description",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "discountAmount",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "discountAmountBase",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "emailAddress",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "modifiedOn",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "ownerId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "paymentMethod",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "quoteId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "shipToCity",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "shipToCountry",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "shipToLine1",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "shipToPostalCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "shipToStateOrProvince",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "statusCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "statusCode_display",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "totalAmount",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "totalAmountBase",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "totalDiscountAmount",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "totalTax",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "totalTaxBase",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "transactionCurrencyId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "commissionFee",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "customerFirstname",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "customerLastname",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "customerName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "eventId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "originalPrice",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "productName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "productSku",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "quantity",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "shippingCostTax",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "subtotalTax",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "taxAmount",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "taxName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "taxPercentage",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
-        },
-        {
-          "name" : "discountId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true
-        },
-        {
-          "name" : "customerId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true
+          "description" : ""
         },
         {
           "name" : "productId",
@@ -361,27 +349,33 @@
           "isNullable" : true
         },
         {
+          "name" : "customerId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true
+        },
+        {
           "explanation" : "",
           "entity" : {
-            "entityReference" : "Customer",
+            "entityReference" : "Discount",
             "appliedTraits" : [
               {
                 "traitReference" : "is.identifiedBy",
                 "arguments" : [
-                  "Customer/(resolvedAttributes)/customerId"
+                  "Discount/(resolvedAttributes)/discountId"
                 ]
               }
             ]
           },
-          "name" : "customerId",
+          "name" : "discountId",
           "resolutionGuidance" : {
             "renameFormat" : "{m}",
             "entityByReference" : {
               "allowReference" : true,
               "foreignKeyAttribute" : {
-                "name" : "customerId",
+                "name" : "discountId",
                 "purpose" : "hasA",
-                "dataType" : "string"
+                "dataType" : "integer"
               }
             }
           }

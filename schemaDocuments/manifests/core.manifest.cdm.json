@@ -167,6 +167,131 @@
       "type" : "LocalEntity",
       "entityName" : "Vendor",
       "entityPath" : "/core/Vendor.cdm.json/Vendor"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Accrual",
+      "entityPath" : "/core/Accrual.cdm.json/Accrual"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "AccrualBalance",
+      "entityPath" : "/core/AccrualBalance.cdm.json/AccrualBalance"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "AttendanceSummary",
+      "entityPath" : "/core/AttendanceSummary.cdm.json/AttendanceSummary"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Benefit",
+      "entityPath" : "/core/Benefit.cdm.json/Benefit"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Contract",
+      "entityPath" : "/core/Contract.cdm.json/Contract"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "ContractLineItem",
+      "entityPath" : "/core/ContractLineItem.cdm.json/ContractLineItem"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Deduction",
+      "entityPath" : "/core/Deduction.cdm.json/Deduction"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Discount",
+      "entityPath" : "/core/Discount.cdm.json/Discount"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Document",
+      "entityPath" : "/core/Document.cdm.json/Document"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Earning",
+      "entityPath" : "/core/Earning.cdm.json/Earning"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Invoice",
+      "entityPath" : "/core/Invoice.cdm.json/Invoice"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "InvoiceItem",
+      "entityPath" : "/core/InvoiceItem.cdm.json/InvoiceItem"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Party",
+      "entityPath" : "/core/Party.cdm.json/Party"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PayComponent",
+      "entityPath" : "/core/PayComponent.cdm.json/PayComponent"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PayGroup",
+      "entityPath" : "/core/PayGroup.cdm.json/PayGroup"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PayPeriod",
+      "entityPath" : "/core/PayPeriod.cdm.json/PayPeriod"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PayrollRun",
+      "entityPath" : "/core/PayrollRun.cdm.json/PayrollRun"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PaySchedule",
+      "entityPath" : "/core/PaySchedule.cdm.json/PaySchedule"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PaySlip",
+      "entityPath" : "/core/PaySlip.cdm.json/PaySlip"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Position",
+      "entityPath" : "/core/Position.cdm.json/Position"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "User",
+      "entityPath" : "/core/User.cdm.json/User"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Member",
+      "entityPath" : "/core/Member.cdm.json/Member"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "ProjectTask",
+      "entityPath" : "/core/ProjectTask.cdm.json/ProjectTask"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Team",
+      "entityPath" : "/core/Team.cdm.json/Team"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "PricingRule",
+      "entityPath" : "/core/PricingRule.cdm.json/PricingRule"
     }
   ]
 }

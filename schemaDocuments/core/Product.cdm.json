@@ -9,237 +9,428 @@
         {
           "name" : "productId",
           "purpose" : "identifiedBy",
+          "dataType" : "integer",
+          "isNullable" : true
+        },
+        {
+          "name" : "createdBy",
+          "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "createdByExternalParty",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "createdOn",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "createdOnBehalfBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "currentCost",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "currentCostBase",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "defaultUoMId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "defaultUoMScheduleId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "description",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "entityImageId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "exchangeRate",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "hierarchyPath",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "importSequenceNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "isKit",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "isStockItem",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "modifiedBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "modifiedByExternalParty",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "modifiedOn",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "modifiedOnBehalfBy",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "name",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "organizationId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "overriddenCreatedOn",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "parentProductId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "price",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "priceBase",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "priceLevelId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "processId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "productNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "productStructure",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "productStructureDisplay",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "productTypeCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
-          "name" : "productTypeCode_display",
+          "name" : "productTypeCodeDisplay",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "productUrl",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "quantityDecimal",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "quantityOnHand",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "size",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "stageId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "standardCost",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "standardCostBase",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "stateCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "stateCodeDisplay",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "statusCode",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "statusCodeDisplay",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "stockVolume",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "stockWeight",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "subjectId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "supplierId",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "timeZoneRuleVersionNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "transactionCurrencyId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "traversedPath",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "UTCConversionTimeZoneCode",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "validFromDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "validToDate",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
-          "name" : "vendorID",
+          "name" : "vendorId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "vendorName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
+        },
+        {
+          "name" : "vendorPartNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "versionNumber",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
         },
         {
           "name" : "category",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
-        },
-        {
-          "name" : "isVisible",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
-        },
-        {
-          "name" : "orderQuantityMaximum",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "ownerId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "productSku",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
-        },
-        {
-          "name" : "sortOrder",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
-        },
-        {
-          "name" : "supplierId",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "isNullable" : true
-        },
-        {
-          "explanation" : "",
-          "entity" : {
-            "entityReference" : "Supplier",
-            "appliedTraits" : [
-              {
-                "traitReference" : "is.identifiedBy",
-                "arguments" : [
-                  "Supplier/(resolvedAttributes)/supplierId"
-                ]
-              }
-            ]
-          },
-          "name" : "supplierId",
-          "resolutionGuidance" : {
-            "renameFormat" : "{m}",
-            "entityByReference" : {
-              "allowReference" : true,
-              "foreignKeyAttribute" : {
-                "name" : "supplierId",
-                "purpose" : "hasA",
-                "dataType" : "string"
-              }
-            }
-          }
+          "description" : ""
         }
       ]
     }

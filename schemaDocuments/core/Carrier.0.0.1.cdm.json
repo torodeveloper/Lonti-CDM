@@ -9,7 +9,8 @@
         {
           "name" : "carrierId",
           "purpose" : "identifiedBy",
-          "dataType" : "integer"
+          "dataType" : "integer",
+          "description" : ""
         },
         {
           "name" : "name",
@@ -96,10 +97,30 @@
           "description" : ""
         },
         {
-          "name" : "track",
-          "purpose" : "hasA",
-          "dataType" : "string",
-          "description" : ""
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Tracking",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Tracking/(resolvedAttributes)/trackingId"
+                ]
+              }
+            ]
+          },
+          "name" : "trackingId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "trackingId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

@@ -12,70 +12,184 @@
           "dataType" : "integer"
         },
         {
-          "name" : "taxName",
+          "name" : "CompanyId",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
-          "name" : "taxRate",
+          "name" : "Name",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
-          "name" : "taxType",
+          "name" : "Type",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
-          "name" : "taxDescription",
+          "name" : "Code",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Description",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "Active",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "FilingStatus",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveFromDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EffectiveToDate",
+          "purpose" : "hasA",
+          "dataType" : "dateTime",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployeeAmount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployeeCalculationMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "IsEmployerTax",
+          "purpose" : "hasA",
+          "dataType" : "boolean",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployerAmount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "name" : "EmployerCalculationMethod",
+          "purpose" : "hasA",
+          "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "CreatedDate",
           "purpose" : "hasA",
-          "dataType" : "string",
+          "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "CreatedBy",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "UpdatedDate",
           "purpose" : "hasA",
-          "dataType" : "string",
+          "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "UpdatedBy",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "DeletedDate",
           "purpose" : "hasA",
-          "dataType" : "string",
+          "dataType" : "dateTime",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "DeletedBy",
           "purpose" : "hasA",
           "dataType" : "string",
+          "isNullable" : true,
           "description" : ""
         },
         {
           "name" : "Deleted",
           "purpose" : "hasA",
-          "dataType" : "string",
+          "dataType" : "boolean",
+          "isNullable" : true,
           "description" : ""
+        },
+        {
+          "name" : "ExemptionAmount",
+          "purpose" : "hasA",
+          "dataType" : "double",
+          "isNullable" : true,
+          "description" : ""
+        },
+        {
+          "explanation" : "",
+          "entity" : {
+            "entityReference" : "Currency",
+            "appliedTraits" : [
+              {
+                "traitReference" : "is.identifiedBy",
+                "arguments" : [
+                  "Currency/(resolvedAttributes)/currencyId"
+                ]
+              }
+            ]
+          },
+          "name" : "currencyId",
+          "resolutionGuidance" : {
+            "renameFormat" : "{m}",
+            "entityByReference" : {
+              "allowReference" : true,
+              "foreignKeyAttribute" : {
+                "name" : "currencyId",
+                "purpose" : "hasA",
+                "dataType" : "integer"
+              }
+            }
+          }
         }
       ]
     }

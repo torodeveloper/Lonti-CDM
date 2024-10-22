@@ -11,245 +11,245 @@
           "purpose" : "identifiedBy",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "VendorAccountNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "CompanyType",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "CurrencyCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "Notes",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PaymentId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "DefaultVendorPaymentMethodName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PaymentTransactionCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressDescription",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressCity",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressCountryRegionId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressCountyId",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressDistrictName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressStreet",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressStreetNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressTimeZone",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "AddressZipCode",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "VendorKnownAsName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "VendorOrganizationName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PersonFirstName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PersonMiddleName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PersonLastNamePrefix",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PersonLastName",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PersonPersonalTitle",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryEmailAddress",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryFaxNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryPhoneNumber",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryURL",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryURLDescription",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryFacebook",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryFacebookDescription",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryLinkedIn",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryLinkedInDescription",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryTwitter",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         },
         {
           "name" : "PrimaryTwitterDescription",
           "purpose" : "hasA",
           "dataType" : "string",
           "isNullable" : true,
-          "description" : "\"\\\"\\\\\\\"\\\\\\\"\\\"\""
+          "description" : ""
         }
       ]
     }
