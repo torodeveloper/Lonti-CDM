@@ -292,6 +292,11 @@
       "type" : "LocalEntity",
       "entityName" : "PricingRule",
       "entityPath" : "/core/PricingRule.cdm.json/PricingRule"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Account",
+      "entityPath" : "/core/Account.cdm.json/Account"
     }
   ]
 }

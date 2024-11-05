@@ -1,0 +1,278 @@
+{
+    "documentVersion": "0.0.1",
+    "jsonSchemaSemanticVersion": "1.1.0",
+    "definitions": [
+        {
+            "entityName": "Account",
+            "displayName": "Account",
+            "hasAttributes": [
+                {
+                    "name": "createdOn",
+                    "dataType": "date",
+                    "isNullable": true,
+                    "description": "Date and time when the record was created."
+                },
+                {
+                    "name": "createdBy",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Shows who created the record."
+                },
+                {
+                    "name": "modifiedOn",
+                    "dataType": "date",
+                    "isNullable": true,
+                    "description": "Date and time when the record was modified."
+                },
+                {
+                    "name": "modifiedBy",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Shows who last updated the record."
+                },
+                {
+                    "name": "ownerId",
+                    "dataType": "string",
+                    "description": "Owner Id"
+                },
+                {
+                    "name": "owningUser",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Unique identifier for the user that owns the record."
+                },
+                {
+                    "name": "accountId",
+                    "purpose": "identifiedBy",
+                    "dataType": "string",
+                    "description": "Unique identifier of the account."
+                },
+                {
+                    "name": "accountCategoryCode",
+                    "dataType": "integer",
+                    "isNullable": true,
+                    "description": "Select a category to indicate whether the customer account is standard or preferred."
+                },
+                {
+                    "name": "accountCategoryCode_display",
+                    "dataType": "string"
+                },
+                {
+                    "name": "name",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the company or business name."
+                },
+                {
+                    "name": "accountNumber",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type an ID number or code for the account to quickly search and identify the account in system views."
+                },
+                {
+                    "name": "revenue",
+                    "dataType": "decimal",
+                    "isNullable": true,
+                    "description": "Type the annual revenue for the account, used as an indicator in financial performance analysis."
+                },
+                {
+                    "name": "description",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type additional information to describe the account, such as an excerpt from the company's website."
+                },
+                {
+                    "name": "webSiteUrl",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the account's website URL to get quick details about the company profile."
+                },
+                {
+                    "name": "EMailAddress1",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the primary email address for the account."
+                },
+                {
+                    "name": "telephone1",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the main phone number for this account."
+                },
+                {
+                    "name": "fax",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the fax number for the account."
+                },
+                {
+                    "name": "stateCode",
+                    "dataType": "integer",
+                    "description": "Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated."
+                },
+                {
+                    "name": "stateCode_display",
+                    "dataType": "string"
+                },
+                {
+                    "name": "statusCode",
+                    "dataType": "integer",
+                    "isNullable": true,
+                    "description": "Select the account's status."
+                },
+                {
+                    "name": "statusCode_display",
+                    "dataType": "string"
+                },
+                {
+                    "name": "address1AddressId",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Unique identifier for address 1."
+                },
+                {
+                    "name": "address1AddressTypeCode",
+                    "dataType": "integer",
+                    "isNullable": true,
+                    "description": "Select the address type, such as primary or billing."
+                },
+                {
+                    "name": "address1AddressTypeCode_display",
+                    "dataType": "string"
+                },
+                {
+                    "name": "address1Name",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type a descriptive name for the customer's address, such as Corporate Headquarters."
+                },
+                {
+                    "name": "address1Line1",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the first line of the customer's address to help identify the location."
+                },
+                {
+                    "name": "address1City",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the city for the customer's address to help identify the location."
+                },
+                {
+                    "name": "address1StateOrProvince",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the state or province of the customer's address."
+                },
+                {
+                    "name": "address1County",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the county for the customer's address."
+                },
+                {
+                    "name": "address1Country",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the country or region for the customer's address."
+                },
+                {
+                    "name": "address1PostalCode",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the ZIP Code or postal code for the address."
+                },
+                {
+                    "name": "address1Telephone1",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the primary phone number for the customer's address."
+                },
+                {
+                    "name": "address1Longitude",
+                    "dataType": "double",
+                    "isNullable": true,
+                    "description": "Type the longitude value for the customer's address, for use in mapping and other applications."
+                },
+                {
+                    "name": "address1ShippingMethodCode",
+                    "dataType": "integer",
+                    "isNullable": true,
+                    "description": "Select a shipping method for deliveries sent to this address."
+                },
+                {
+                    "name": "address1ShippingMethodCode_display",
+                    "dataType": "string"
+                },
+                {
+                    "name": "address1Fax",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Type the fax number associated with the customer's address."
+                },
+                {
+                    "name": "address1Composite",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Shows the complete address."
+                },
+                {
+                    "name": "exchangeRate",
+                    "dataType": "decimal",
+                    "isNullable": true,
+                    "description": "Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency."
+                },
+                {
+                    "name": "transactionCurrencyId",
+                    "dataType": "string",
+                    "isNullable": true,
+                    "description": "Choose the local currency for the record to make sure budgets are reported in the correct currency."
+                },
+                {
+                    "name": "creditLimitBase",
+                    "dataType": "decimal",
+                    "isNullable": true,
+                    "description": "Shows the credit limit converted to the system's default base currency for reporting purposes."
+                },
+                {
+                    "name": "revenueBase",
+                    "dataType": "decimal",
+                    "isNullable": true,
+                    "description": "Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area."
+                },
+                {
+                    "name": "marketCapBase",
+                    "dataType": "decimal",
+                    "isNullable": true,
+                    "description": "Shows the market capitalization converted to the system's default base currency."
+                },
+                {
+                  "explanation" : "",
+                  "entity" : {
+                    "entityReference" : "Contact",
+                    "appliedTraits" : [
+                      {
+                        "traitReference" : "is.identifiedBy",
+                        "arguments" : [
+                          "Contact/(resolvedAttributes)/contactId"
+                        ]
+                      }
+                    ]
+                  },
+                  "name" : "contactId",
+                  "resolutionGuidance" : {
+                    "renameFormat" : "{m}",
+                    "entityByReference" : {
+                      "allowReference" : true,
+                      "foreignKeyAttribute" : {
+                        "name" : "contactId",
+                        "purpose" : "hasA",
+                        "dataType" : "string"
+                      }
+                    }
+                  }
+                }
+            ]
+        }
+    ]
+}
