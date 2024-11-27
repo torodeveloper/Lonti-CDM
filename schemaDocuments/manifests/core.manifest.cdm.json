@@ -297,6 +297,21 @@
       "type" : "LocalEntity",
       "entityName" : "Account",
       "entityPath" : "/core/Account.cdm.json/Account"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Lead",
+      "entityPath" : "/core/Lead.cdm.json/Lead"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Opportunity",
+      "entityPath" : "/core/Opportunity.cdm.json/Opportunity"
+    },
+    {
+      "type" : "LocalEntity",
+      "entityName" : "Organisation",
+      "entityPath" : "/core/Organisation.cdm.json/Organisation"
     }
   ]
 }
